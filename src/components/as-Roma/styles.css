@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+.prima-riga {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+  background-color: #fbba00;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: absolute;
+  top: 2.3rem; /* sovrappone il logo */
+}
+.seconda-riga {
+  display: flex;
+  flex-direction: row;
+  background-color: #990a2c;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.seconda-riga-destra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around ;
+  
+}
