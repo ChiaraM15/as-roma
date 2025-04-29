@@ -4,27 +4,58 @@
 }
 .prima-riga {
   display: flex;
-  flex-direction: row;
-  padding: 1.5rem;
+  justify-content: space-between;
+  padding: 1.6rem;
+  align-items: center;
   background-color: #fbba00;
+  border-radius: 0px 0px 5px 0px;
 }
 .logo {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   position: absolute;
-  top: 2.3rem; /* sovrappone il logo */
+  top: 0.1rem; /* sovrappone il logo */
+}
+.prima-riga-destra {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0.3rem;
+  right: 7rem;
+}
+.sponsor {
+  display: flex;
+  justify-content: flex-end;
+  height: 30px;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.riyadh,
+.adidas {
+  width: 1.5rem;
 }
 .seconda-riga {
   display: flex;
   flex-direction: row;
   background-color: #990a2c;
   justify-content: space-around;
+  margin-right: 1rem;
+
   padding: 1rem;
+  color: white;
+  font-family: "Arial", sans-serif;
+}
+.menu {
+  width: 1rem;
+  align-items: center;
+  margin-left: 4rem;
+  cursor: pointer;
+  color: white;
 }
 .seconda-riga-destra {
   display: flex;
   flex-direction: row;
-  justify-content: space-around ;
-  
+  justify-content: space-between;
 }
