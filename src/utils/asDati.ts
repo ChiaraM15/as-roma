@@ -1,3 +1,5 @@
+import { ElementAsRoma } from "../interfaces/interfaces";
+
 export const NavbarAsList: Array<ElementAsRoma> = [
   { id: 0, text: "SQUADRA" },
   { id: 1, text: "CALENDARIO" },

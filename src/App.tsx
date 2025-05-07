@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import "./index.css";
 import NavbarAsRoma from "./components/as-Roma/NavbarAsRoma";
 
 function App() {

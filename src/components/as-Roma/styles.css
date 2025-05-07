@@ -4,32 +4,30 @@
 }
 .prima-riga {
   display: flex;
-  justify-content: space-between;
-  padding: 1.6rem;
+  flex-direction: row;
+  justify-content: flex-end;
   align-items: center;
+  height: 3.1rem;
+  padding: 0 20px;
   background-color: #fbba00;
-  border-radius: 0px 0px 5px 0px;
 }
+
 .logo {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   position: absolute;
-  top: 0.1rem; /* sovrappone il logo */
+  top: 0rem;
 }
-.prima-riga-destra {
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  top: 0.3rem;
-  right: 7rem;
-}
+
 .sponsor {
   display: flex;
   justify-content: flex-end;
+  width: 100%;
   height: 30px;
   align-items: center;
-  margin-right: 1.5rem;
+
+  gap: 20px;
 }
 
 .riyadh,
@@ -40,22 +38,76 @@
   display: flex;
   flex-direction: row;
   background-color: #990a2c;
-  justify-content: space-around;
-  margin-right: 1rem;
-
-  padding: 1rem;
+  justify-content: space-between;
+  padding: 0 30px 0 130px;
   color: white;
   font-family: "Arial", sans-serif;
-}
-.menu {
-  width: 1rem;
+  height: 3.1rem;
   align-items: center;
-  margin-left: 4rem;
+}
+.seconda-riga-sinistra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.menu,
+.down,
+.ticket,
+.lente,
+.shop,
+.freccia {
+  width: 1rem;
+  height: 1rem;
+  align-items: center;
   cursor: pointer;
-  color: white;
 }
 .seconda-riga-destra {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.testo-destra,
+.testo-accedi {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  cursor: pointer;
+}
+.testo-ticket {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: #fbba00;
+  gap: 10px;
+  border: 2px solid #fbba00;
+  border-radius: 100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.testo-shop {
+  display: flex;
+  flex-direction: row;
+  font-weight: 400;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  border-color: rgb(88, 67, 41);
+  padding: 0.5rem;
+  background-color: #990a2c;
+  gap: 10px;
+  border: 2px solid #fff;
+  border-radius: 100px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
 }
